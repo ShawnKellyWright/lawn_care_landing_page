@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* following is global styling of body */
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: ;
+}
+
+/* .main-logo {
+    width: 100%;
+    height: auto;
+    max-width: 250px;
+    min-width: 250px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 15px;
+    
+} */
+
+.main-logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.main-logo-img {
+    width: auto;
+    height: auto;
+    max-width: 40%;
+    max-height: 100%;
+    min-width: 300px;
+}
+
+/* following is main navbar section styling */
+#navbar {
+    margin-top: 30px;
+    background-color: #44797d;
+    width: 100%;
+    padding: 15px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+li {
+    list-style-type: none;
+    font-size: 1.2em;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}   
+
+li > a:hover {
+    color: #eab976;
+}
+
+/* following is video player section styling */
+.video-container {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    
+}
+
+video {
+    width: auto;
+    height: auto;
+    max-width: 40%;
+    max-height: 100%;
+    min-width: 300px;
+    
+}
+
+/* following is image of push lawn mower styling */
+
+.push-mower {
+    display: flex;
+    justify-content: center;
+}
+
+.push-mower-img {
+    width: auto;
+    height: auto;
+    max-width: 40%;
+    max-height: 100%;
+    min-width: 300px;
+    margin-bottom: 30px;
+}
+
+/* following is blockquote section styling */
+blockquote {
+    text-align: center;
+    font-size: x-large;
+    margin: 30px;
+}
+
+/* following is form section styling */
+.container {
+    display: flex;
+    justify-content: center;
+    
+}
+
+#form {
+    display: flex;
+}
+
+/* following is bottom push button that says Idiot 3 times from Dwight Schrute */
+.idiot-btn {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+button {
+    padding: 10px;
+    border-radius: 5px;
+    font-size: large;
+}
+
+/* following is footer section styling */
+footer {
+    color: #fff;
+    text-align: center;
+    background-color: #44797d;
+    padding: 15px;
+}

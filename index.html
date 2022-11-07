@@ -1,0 +1,145 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <title>Landing Page - Lawn Service</title>
+    <meta name="description" content=""> <!-- TODO: update meta description -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="Home - Page"> <!-- TODO: update OG Title -->
+    <meta property="og:url" content=""> <!-- TODO: update OG URL -->
+    <meta property="og:image" content="/path/to/image"> <!-- TODO: update OG Image -->
+    <meta property="og:type" content="">
+    <link rel="apple-touch-icon" href="icon.png">
+    <link rel="manifest" href="site.webmanifest"> <!-- TODO: Update web app manifest file -->
+    <link rel="icon" href="/favicon.ico"> <!-- TODO: Add favicon.ico file to project -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+    <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+    <!-- This is just a practice landing page for fictitious Lawn Care company. Practicing making it responsive
+         with CSS Flexbox-->
+    <section>
+        <div class="main-logo">
+            <img class="main-logo-img" src="images/lawn_service_logo_1.png"
+                alt="Lawn Service logo with lawn clipper image in between the words Lawn and Service">
+        </div>
+    </section>
+    <section class="container-nav">
+        <nav id="navbar">
+            <ul>
+                <li><a class="navbar-link" id="#video" href="">Video</a></li>
+                <li><a class="navbar-link" href="">Pricing</a></li>
+                <li><a class="navbar-link" href="">Contact</a></li>
+            </ul>
+        </nav>
+    </section>
+
+    <section>
+        <!-- following is the video player playing Homer Simpson & Ned cutting grass in dresses -->
+        <div class="video-container">
+            <video id="video" src="images/Homer_Ned_mowing_lawn.mp4" width="640px" height="360px" controls
+                type="video/mp4"></video>
+        </div>
+    </section>
+    <section class="">
+        <div class="push-mower">
+            <img class="push-mower-img" src="images/hand_mower_ image_for_test_lawn_service.png"
+                alt="cartoon manual push lawnmower">
+        </div>
+    </section>
+    <section id="pricing">
+        <div class="product" id="low-tier-cut">
+            <div class="product-header">Lawn Service Low Tier</div>
+            <h2 class="product-h2">$200</h2>
+            <ol>
+                <li>When cutting your grass you'll be happy with our service</li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ol>
+        </div>
+        <div class="product" id="medium-tier-cut">
+            <div class="product-header">Lawn Service Medium Tier</div>
+            <h2 class="product-h2">$300</h2>
+            <ol>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ol>
+        </div>
+        <div class="product" id="large-tier-cut">
+            <div class="product-header">Lawn Service Large Tier</div>
+            <h2 class="product-h2">$500</h2>
+            <ol>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ol>
+        </div>
+        <div class="product" id="the-works-tier-cut">
+            <div class="product-header">Lawn Service The Works Tier</div>
+            <h2 class="product-h2">$1000</h2>
+            <ol>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ol>
+        </div>
+    </section>
+    <section class="quote">
+        <blockquote>
+            <p> "I love the smell of fresh cut grass in the morning!"</p>
+            <cite>-- <strong>John Doe</strong></cite>
+        </blockquote>
+    </section>
+    <section class="container">
+        <form id="form" action="https://formsubmit.co/shawncodewright@gmail.com" method="POST" target="_blank">
+            <textarea id="message" type="text" value="">If you are want your Saturday morning back, please send me an email and let me know.
+        </textarea>
+            <label for="email">Email:<input name="email" id="email" type="email" placeholder="Enter your email address"
+                    required></label>
+            <label for=""></label>
+            <input id="submit" type="submit" value="Submit" class="btn">
+        </form>
+    </section>
+    <section>
+        <div class="idiot-btn">
+            <button class="push-me-btn">PUSH ME</button>
+        </div>
+    </section>
+    <footer>
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        <p>&copy;Copyright 2022 shawnCodeWright</p>
+    </footer>
+
+    <script src="js/vendor/modernizr-{{MODERNIZR_VERSION}}.min.js"></script> <!-- TODO: Add Modernizr js -->
+    <script src="js/app.js"></script> <!-- TODO: Update app entry point -->
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+        window.ga = function () {
+            ga.q.push(arguments)
+        };
+        ga.q = [];
+        ga.l = +new Date;
+        ga('create', 'UA-XXXXX-Y', 'auto');
+        ga('set', 'anonymizeIp', true);
+        ga('set', 'transport', 'beacon');
+        ga('send', 'pageview')
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
